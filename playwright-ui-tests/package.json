@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "UI testing project using Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "build": "tsc"
+  },
+  "keywords": [
+    "playwright",
+    "ui",
+    "testing",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0"
+  }
+}
